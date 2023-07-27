@@ -1,0 +1,22 @@
+.grid-container, .grid-item1, .grid-item2 {
+    border: 1px solid;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-gap: 5px;
+}
+.grid-item1 {
+    background-color: blue;
+    text-align: center;
+    border: black 5px solid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.grid-item2 {
+    background-color: gray;
+    text-align: center;
+    border: rgb(255, 0, 0);
+}
