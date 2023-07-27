@@ -27,6 +27,7 @@ if __name__ == "__main__":
                 elif (opcion == 4):
                     isActivate=False  
                     bandera=False
+                    print(input("Prueba"))
                 else:
                     os.system("cls")
                     print(input("La opcion ingresada no es valida\n\nPresiona una tecla para continuar..."))        
