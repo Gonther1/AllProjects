@@ -1,0 +1,40 @@
+/**{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*/
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#secciones {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+    height: 965px;
+}
+.primera, .segunda {
+    border-right: 1px solid; color:black; 
+}
+.divs {
+    width: 150px;
+    height: 150px;
+    margin: 20px 0 20px 0;
+}
+img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+h2 {
+    margin: 0;
+}
+p {
+    margin: 8px 0 8px 0;
+    font-size: 20px;
+}
