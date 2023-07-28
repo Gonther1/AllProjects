@@ -18,8 +18,8 @@ main {
     width: 35%;
     height: 965px;
 }
-.primera, .segunda {
-    border-right: 1px solid; color:black; 
+.primera, .segunda, .tercera {
+    border: 4px solid #cdcdcd;
 }
 .divs {
     width: 300px;
@@ -37,4 +37,17 @@ h2 {
 p {
     margin: 8px 0 8px 0;
     font-size: 20px;
+}
+#pProfesional {
+    margin-top: 20px;
+    font-size: 25px;
+}
+#h2 {
+    margin: 20px 122px 10px 0
+}
+#jsDiv {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    flex-direction: column;
 }
