@@ -3,13 +3,58 @@
 #body {
     color: white;
     width: 100%;
-    height: 100%;
+    height: auto;
     background-color: #1e1d2b;
+    border:2px solid #f04e4e;
+}
+/*Food Menu */
+
+
+
+/* About us */
+#aboutUs div {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+#about1, #about2 {
+    width: 50%;
+    height: auto;
+}
+#about2 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    font-family: 'Poppins';
+}
+
+#about2 #us {
+    color: #f04e4e;
+    font-size: 21px;
+}
+#about2 h2 {
+    font-size: 50px;
+}
+#about2 pre {
+    font-size: 21px;
+    width: 486px;
+    margin: 0;
+}
+#about2 button {
+    background-color: #f04e4e;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 21px;
+    width: 178px;
+    height: 55px;
+    border-radius: 6px;
 }
 /*MAIN*/
-main, #aboutUs /*, #foodMenu, #services, #qualityFood */{
+main, #aboutUs, #foodMenu/*, #foodMenu, #services, #qualityFood */{
     width: 100%;
-    height: 622px;
+    height: 950px;
+    border: 1px solid #f04e4e
 }
 /*
 #footer {
@@ -45,13 +90,13 @@ header {
 }
 #imgPrincipal {
     width: 50%;
-    height: 500px;
+    height: auto;
 }
 #tPrincipal {
     width: 50%;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     flex-direction: column;
 }
 #imgPrincipal{
@@ -79,7 +124,6 @@ header {
     border-radius: 6px;
 }
 /*MAIN Responsive*/
-@media screen and (max-width: 1115px) {
+@media screen and (max-width: 1500px) {
     
 }
-/* About us */
