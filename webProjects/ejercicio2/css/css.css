@@ -1,0 +1,35 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+body div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body div div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+div {
+    background-color: black;
+}
+p {
+    color: white;
+}
+@media (max-width:710px) {
+    body div {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:220px) {
+    body div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

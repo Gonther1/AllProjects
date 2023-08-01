@@ -19,7 +19,7 @@ li {
     width: 24.5%;
     border-right: 1px solid black;
 }
-div {
-    width: auto;
-    height: 50px;
+
+#principalDiv {
+    background-color: aquamarine;
 }

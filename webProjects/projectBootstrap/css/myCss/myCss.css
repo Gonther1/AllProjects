@@ -219,7 +219,14 @@ header {
     height: 55px;
     border-radius: 6px;
 }
+#navOcultar {
+    display: none;
+}
 /*MAIN Responsive*/
-@media screen and (max-width: 1px) {
-    
+@media screen and (max-width: 320px) {
+    #navOcultar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
