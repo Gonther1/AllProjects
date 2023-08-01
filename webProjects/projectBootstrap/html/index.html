@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="../css/myCss/myCss.css">
     <link rel="stylesheet" href="../css/myCss/normalize.css">
     <link rel="stylesheet" href="../css/bootstrapCss/bootstrap.min.css">
-    <link rel="stylesheet" href="../js/bootstrapJS/bootstrap.bundle.min.js">
+    <script src="../js/bootstrapJS/bootstrap.bundle.min.js" defer></script>
+    <script src="../js/bootstrapJS/query.js" defer></script>
 </head>
 <body id="body">
     <main>
@@ -29,6 +30,18 @@
                 <li class="nav-item">
                 <a class="nav-link" style="color:white; font-size:20px" aria-disabled="true">Contact</a>
                 </li>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown link
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </nav>
             </ul>
         </header>
         <section id="secPrincipal">
@@ -74,15 +87,98 @@ Fresh taste and grat price
     </div>
     <div id="iFoodMenu">
         <div><div><img src="../images/food1.png" alt="Chicken Burger"></div>
-        <p class="titulo">Chicken burger</p><p class="centro">Tasty food</p><p class="price">$11.00</p></div>
-        <div><div><img src="../images/food2.png" alt="Beef Burger"></div><p class="titulo">Special beef burger</p><p class="centro">Tasty food</p><p class="price">$11.00</p></div>
-        <div><div><img src="../images/food3.png" alt="Fry pack"></div><p class="titulo">Chicken Fry pack</p><p class="centro">Tasty food</p><p class="price">$11.00</p></div></div>
+        <p class="titulo">Chicken burger</p><p class="centro">Tasty food</p><p style="color:#f04e4e">$11.00</p></div>
+        <div><div><img src="../images/food2.png" alt="Beef Burger"></div><p class="titulo">Special beef burger</p><p class="centro">Tasty food</p><p style="color:#f04e4e">$11.00</p></div>
+        <div>
+            <div>
+                <img src="../images/food3.png" alt="Fry pack"></div>
+                <p class="titulo">Chicken Fry pack</p>
+                <p class="centro">Tasty food</p><p style="color:#f04e4e">$11.00</p>
+            </div>
+        </div>
     </div>
 </section>
-<!--
-    <section id="services"></section>
-    <section id="qualityFood"></section>
-    <footer id="footer"></footer>
--->
+<section id="services">
+    <div id="tServices">
+        <p style="color:#f04e4e; font-size: 25px">Services</p>
+        <pre style="font-size:50px">
+We provide best food services
+        </pre>
+    </div>
+    <div id="iServices">
+        <div>
+            <div>
+                <img src="../images/s1.png" alt="Logo Caja">
+            </div>
+            <h2>Order</h2>
+            <pre>
+  It is a long established  
+be distracted by the readable 
+  looking at its layout. 
+            </pre>
+        </div>
+        <div>
+            <div><img src="../images/s2.png" alt="Camion"></div>
+            <h2>Dellvered</h2>
+            <pre>
+  It is a long established  
+be distracted by the readable 
+  looking at its layout. 
+            </pre>
+        </div>
+        <div>
+            <div><img src="../images/s3.png" alt="Almuerzo empacado"></div>
+            <h2>Shipping</h2>
+            <pre>
+  It is a long established  
+be distracted by the readable 
+  looking at its layout. 
+            </pre>
+        </div>
+    </div>
+</section>
+<section id="qualityFood">
+    <div>
+<pre style="color:black; font-size: 50px">
+    We make quality food
+        Everyday
+</pre>
+        <button>Learn More</button>
+    </div>
+</section>
+<footer id="footer">
+    <div>
+        <div>
+            <pre>
+<h2>Menu</h2>
+Home
+About
+Menu
+Service
+Contact
+            </pre>
+        </div>
+        <div>
+            <pre>
+<h2>Our Service</h2>
+Web Design
+Web Development
+Marketing
+Product Management
+Graphic Design
+            </pre>
+        </div>
+        <div>
+            <h2 style="margin-bottom: 67px; font-family: 'Poppins';">Information</h2>
+            <pre>
+About Us
+Delivery Information
+Privacy Policy
+Terms & Conditions
+            </pre>
+        </div>
+        <h2 style="margin-bottom: 204px; font-family: 'Poppins'">Contact us</h2>
+    </div>
+</footer>
 </body>
 </html>

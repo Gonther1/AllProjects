@@ -7,8 +7,75 @@
     background-color: #1e1d2b;
     border:2px solid #f04e4e;
 }
+/* Footer */
+#footer {   
+    width: 100%;
+    height: 300px;
+}
+#footer div div pre {
+    font-size: 20px;
+}
+#footer div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:30px;
+}
+#footer div div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* Quality food*/
+#qualityFood {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#qualityFood div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    height: 60%;
+    background-color: white;
+}
+#qualityFood div button {
+    background-color: #f04e4e;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 21px;
+    width: 178px;
+    height: 55px;
+    border-radius: 6px;
+}
+/* Services */
+#iServices {
+    display: flex;
+    justify-content: space-evenly;
+}
+#iServices div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#iServices div div {
+    width: 70%;
+}
+#iServices div h2 {
+    color: #f04e4e;
+    font-family: 'Poppins';
+}
+#iServices div pre {
+    font-size: 20px;
+}
+#iServices div div img {
+    width: 100%;
+}
 /*Food Menu */
-#tFoodMenu {
+#tFoodMenu, #tServices {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,9 +109,6 @@
 }
 .centro {
     font-size: 22px;
-}
-.price {
-    color:#f04e4e
 }
 #iFoodMenu div p {
     color: black;
@@ -89,17 +153,11 @@
     border-radius: 6px;
 }
 /*MAIN*/
-main, #aboutUs, #foodMenu/*, #foodMenu, #services, #qualityFood */{
+main, #aboutUs, #foodMenu, #services, #qualityFood{
     width: 100%;
     height: 950px;
     border: 1px solid #f04e4e
 }
-/*
-#footer {
-    width: 100%;
-    height: 10%;
-}
-*/
 .nav {
     font-family: 'Poppins';
     color: black;
@@ -162,6 +220,6 @@ header {
     border-radius: 6px;
 }
 /*MAIN Responsive*/
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1px) {
     
 }
